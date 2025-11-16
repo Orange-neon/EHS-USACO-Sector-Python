@@ -1,7 +1,6 @@
 # EHS-USACO-Sector-Python
 USACO Programming Club - Python Environment
 
-```markdown
 ## Getting Started
 1. Click the "Code" button → "Codespaces" tab
 2. Create a new codespace
@@ -9,7 +8,6 @@ USACO Programming Club - Python Environment
 4. Start coding!
 
 ## How to Test Python Solutions
-```bash
 # Navigate to the problem folder
 cd problems/problem-01
 
