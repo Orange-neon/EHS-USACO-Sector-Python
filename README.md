@@ -8,12 +8,12 @@ USACO Programming Club - Python Environment
 4. Start coding!
 
 ## How to Test Python Solutions
-# Navigate to the problem folder
+### Navigate to the problem folder
 cd problems/problem-01
 
-# Test with command line input redirection (Recommended)
+### Test with command line input redirection (Recommended)
 python3 solution.py < test_cases/input_01.txt
 
-# Or test visually:
+### Or test visually:
 python3 solution.py < test_cases/input_01.txt
 cat test_cases/output_01.txt
