@@ -1,0 +1,20 @@
+{
+    "name": "USACO Club - Python",
+    "image": "mcr.microsoft.com/devcontainers/python:1-3.11",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "formulahendry.code-runner"
+            ],
+            "settings": {
+                "code-runner.executorMap": {
+                    "python": "cd $dir && python3 $fileName"
+                }
+            }
+        }
+    },
+
+    "postCreateCommand": "echo 'Python environment ready!' && python3 --version"
+}
