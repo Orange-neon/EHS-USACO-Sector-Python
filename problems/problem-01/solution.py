@@ -2,11 +2,11 @@ import sys
 
 def main():
     # For testing - UNCOMMENT these two lines
-    # with open('test_cases/input_01.txt', 'r') as f:
-    #     data = f.read().split()
+    with open('test_cases/input_01.txt', 'r') as f:
+        data = f.read().split()
     
     # For competition - use this line instead
-    data = sys.stdin.read().split()
+    # data = sys.stdin.read().split()
     
     if not data:
         return
